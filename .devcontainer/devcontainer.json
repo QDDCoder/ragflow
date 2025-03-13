@@ -1,0 +1,16 @@
+{
+    "name": "Python Dev Container",
+    "dockerFile": "./Dockerfile",
+    "mounts": [
+      "source=${localWorkspaceFolder},target=/app,type=bind"
+    ],
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "python.defaultInterpreterPath": "/usr/local/bin/python",
+          "terminal.integrated.defaultProfile.linux": "bash"
+        },
+        "extensions": ["ms-python.python"]
+      }
+    }
+  }
