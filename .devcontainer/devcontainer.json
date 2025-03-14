@@ -4,6 +4,7 @@
     "mounts": [
       "source=${localWorkspaceFolder},target=/app,type=bind"
     ],
+    "forwardPorts": [3000],
     "customizations": {
       "vscode": {
         "settings": {

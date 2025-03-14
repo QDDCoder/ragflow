@@ -12,6 +12,7 @@ RUN echo "deb https://mirrors.tuna.tsinghua.edu.cn/debian-security bookworm-secu
 # 设置环境变量
 ENV RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup
 ENV RUSTUP_UPDATE_ROOT=https://mirrors.tuna.tsinghua.edu.cn/rustup/rustup
+ENV HF_ENDPOINT=https://hf-mirror.com
 
 # 更新 apt 源并安装必要的软件包
 RUN apt-get update -y && apt-get install -y --no-install-recommends \

@@ -1,3 +1,5 @@
+# 在脚本顶部添加
+echo "Starting launch_backend_service.sh with debug info"
 #!/bin/bash
 
 # Exit immediately if a command exits with a non-zero status
