@@ -1,10 +1,9 @@
 {
-    "name": "Python Dev Container",
+    "name": "ubuntu-22.04 Dev Container",
     "dockerFile": "./Dockerfile",
     "mounts": [
       "source=${localWorkspaceFolder},target=/app,type=bind"
     ],
-    "forwardPorts": [3000],
     "customizations": {
       "vscode": {
         "settings": {
